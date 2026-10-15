@@ -18,7 +18,7 @@ const projectsData = [
     ]
   },
 
-  // --- Generative AI & Autonomous Agents ---
+  // --- Generative AI, Autonomous Agents & LLM Systems (Strongest & Highest Impact) ---
   {
     id: "llama-react-search-agent",
     title: "Llama 3 ReAct Search & Reasoning Agent",
@@ -33,38 +33,6 @@ const projectsData = [
       "Transparent Thought-Action-Observation multi-step reasoning loop",
       "Zero-shot tool selection and error recovery mechanisms",
       "Sub-second inference powered by Groq LPU engine"
-    ]
-  },
-  {
-    id: "text-to-sql-system",
-    title: "Natural Language to Database Query System (Text-to-SQL)",
-    category: "genai",
-    categoryLabel: "Generative AI & Agents",
-    description: "Enterprise natural language database querying interface. Translates complex English prompts into schema-aware SQL with zero-trust safety guardrails, interactive Streamlit dashboard, and CSV export.",
-    tags: ["Streamlit", "LangChain", "Groq LLaMA 3", "SQLite", "Zero-Trust Security"],
-    github: "https://github.com/tasneemibrahim-ai/Natural-Language-to-Database-Query-System",
-    demo: null,
-    featured: true,
-    highlights: [
-      "Multi-table relational schema querying (Users, Products, Orders)",
-      "Strict regex and token security blocking destructive DDL/DML",
-      "Streamlit UI with live schema viewer and CSV download"
-    ]
-  },
-  {
-    id: "news-summarizer-rag",
-    title: "Real-Time News Summarizer & Analyst RAG",
-    category: "genai",
-    categoryLabel: "Generative AI & Agents",
-    description: "Retrieval-Augmented Generation pipeline ingesting live global news feeds, indexing semantic vectors, and answering analytical queries with verifiable attribution.",
-    tags: ["LangChain", "ChromaDB", "News API", "Groq", "RAG Pipeline"],
-    github: "https://github.com/tasneemibrahim-ai/News-Summarizer-RAG",
-    demo: null,
-    featured: false,
-    highlights: [
-      "Live API ingestion of international breaking news",
-      "Dense vector storage in Chroma with chunk overlap optimization",
-      "Attributed analytical summaries reducing hallucinations"
     ]
   },
   {
@@ -84,6 +52,70 @@ const projectsData = [
     ]
   },
   {
+    id: "text-to-sql-system",
+    title: "Natural Language to Database Query System (Text-to-SQL)",
+    category: "genai",
+    categoryLabel: "Generative AI & Agents",
+    description: "Enterprise natural language database querying interface. Translates complex English prompts into schema-aware SQL with zero-trust safety guardrails, interactive Streamlit dashboard, and CSV export.",
+    tags: ["Streamlit", "LangChain", "Groq LLaMA 3", "SQLite", "Zero-Trust Security"],
+    github: "https://github.com/tasneemibrahim-ai/Natural-Language-to-Database-Query-System",
+    demo: null,
+    featured: true,
+    highlights: [
+      "Multi-table relational schema querying (Users, Products, Orders)",
+      "Strict regex and token security blocking destructive DDL/DML",
+      "Streamlit UI with live schema viewer and CSV download"
+    ]
+  },
+  {
+    id: "emotion-activity-detection",
+    title: "Emotion & Activity Detection System",
+    category: "ml-cv",
+    categoryLabel: "Machine Learning & CV",
+    description: "Real-time computer vision system integrating facial emotion recognition with human pose/activity estimation from streaming video feeds.",
+    tags: ["OpenCV", "Deep Learning", "CNN", "Pose Estimation", "Real-Time CV"],
+    github: "https://github.com/tasneemibrahim-ai/Emotion-And-Activity-Detection",
+    demo: null,
+    featured: true,
+    highlights: [
+      "Facial keypoint detection and micro-expression classification",
+      "Skeletal landmark tracking for real-time action identification",
+      "Optimized pipeline achieving >30 FPS on edge hardware"
+    ]
+  },
+  {
+    id: "news-summarizer-rag",
+    title: "Real-Time News Summarizer & Analyst RAG",
+    category: "genai",
+    categoryLabel: "Generative AI & Agents",
+    description: "Retrieval-Augmented Generation pipeline ingesting live global news feeds, indexing semantic vectors, and answering analytical queries with verifiable attribution.",
+    tags: ["LangChain", "ChromaDB", "News API", "Groq", "RAG Pipeline"],
+    github: "https://github.com/tasneemibrahim-ai/News-Summarizer-RAG",
+    demo: null,
+    featured: false,
+    highlights: [
+      "Live API ingestion of international breaking news",
+      "Dense vector storage in Chroma with chunk overlap optimization",
+      "Attributed analytical summaries reducing hallucinations"
+    ]
+  },
+  {
+    id: "ecommerce-recommender",
+    title: "Multi-Approach Intelligent E-Commerce Recommender System",
+    category: "ml-cv",
+    categoryLabel: "Machine Learning & CV",
+    description: "Hybrid recommendation platform combining collaborative filtering (matrix factorization / SVD), content-based item embeddings, and popularity fallback for cold-start mitigation.",
+    tags: ["Recommender Systems", "Collaborative Filtering", "SVD", "Cosine Similarity"],
+    github: "https://github.com/tasneemibrahim-ai/Multi-Approach-Intelligent-Ecommerce-Recommender-System",
+    demo: null,
+    featured: true,
+    highlights: [
+      "Hybrid ensemble balancing user personalization and catalog diversity",
+      "Matrix factorization resolving matrix sparsity challenges",
+      "Real-time top-N recommendation generation"
+    ]
+  },
+  {
     id: "ai-support-resume-screening",
     title: "AI Customer Support & Resume Screening System",
     category: "genai",
@@ -97,6 +129,38 @@ const projectsData = [
       "ATS keyword and skill vector similarity candidate scoring",
       "Automated ticket priority tagging and sentiment classification",
       "Executive summary reports for recruitment and HR teams"
+    ]
+  },
+  {
+    id: "etl-data-warehouse",
+    title: "Enterprise ETL Pipeline & Data Warehouse",
+    category: "data-eng",
+    categoryLabel: "Data Engineering & DB",
+    description: "End-to-end modern data warehouse architecture modeled with dimensional Kimball methodology (Fact & Dimension tables), automated staging, cleaning, and SCD tracking.",
+    tags: ["Data Warehousing", "ETL Pipelines", "Kimball Modeling", "SQL", "Python"],
+    github: "https://github.com/tasneemibrahim-ai/ETL_Data_Warehouse",
+    demo: null,
+    featured: true,
+    highlights: [
+      "Star schema design with surrogate key management",
+      "Automated extraction, schema sanitization, and bulk loading",
+      "Analytical aggregations enabling sub-second executive reporting"
+    ]
+  },
+  {
+    id: "cairo-transport-optimization",
+    title: "Cairo Smart City Transport Network Optimization",
+    category: "data-eng",
+    categoryLabel: "Data Engineering & DB",
+    description: "Geospatial graph algorithm platform modeling Cairo's public transportation network to identify transit bottlenecks, optimize route scheduling, and compute shortest multi-modal paths.",
+    tags: ["Graph Theory", "Dijkstra / A*", "Geospatial", "NetworkX", "Smart City"],
+    github: "https://github.com/tasneemibrahim-ai/Cairo-Transport-Optimization",
+    demo: null,
+    featured: true,
+    highlights: [
+      "Multi-modal transit graph with weighted delay heuristics",
+      "Dynamic path calculation with congestion avoidance",
+      "Geospatial visualization of hub centrality and coverage"
     ]
   },
   {
@@ -147,24 +211,6 @@ const projectsData = [
       "Stylometric author identification"
     ]
   },
-
-  // --- Machine Learning & Computer Vision ---
-  {
-    id: "emotion-activity-detection",
-    title: "Emotion & Activity Detection System",
-    category: "ml-cv",
-    categoryLabel: "Machine Learning & CV",
-    description: "Real-time computer vision system integrating facial emotion recognition with human pose/activity estimation from streaming video feeds.",
-    tags: ["OpenCV", "Deep Learning", "CNN", "Pose Estimation", "Real-Time CV"],
-    github: "https://github.com/tasneemibrahim-ai/Emotion-And-Activity-Detection",
-    demo: null,
-    featured: true,
-    highlights: [
-      "Facial keypoint detection and micro-expression classification",
-      "Skeletal landmark tracking for real-time action identification",
-      "Optimized pipeline achieving >30 FPS on edge hardware"
-    ]
-  },
   {
     id: "movie-genre-classifier",
     title: "Multi-Modal Movie Genre Classifier",
@@ -179,38 +225,6 @@ const projectsData = [
       "TF-IDF and dense embeddings for narrative overview modeling",
       "Evaluation using Hamming Loss, Micro/Macro F1 metrics",
       "Ensemble prediction strategies for overlapping genres"
-    ]
-  },
-  {
-    id: "digit-recognizer",
-    title: "Deep Convolutional Digit Recognizer (MNIST)",
-    category: "ml-cv",
-    categoryLabel: "Machine Learning & CV",
-    description: "High-accuracy handwritten digit recognition engine trained on MNIST with data augmentation, batch normalization, and dropout regularization.",
-    tags: ["PyTorch / TensorFlow", "CNN", "Computer Vision", "Deep Learning"],
-    github: "https://github.com/tasneemibrahim-ai/Digit-Recognizer",
-    demo: null,
-    featured: false,
-    highlights: [
-      "Custom CNN architecture achieving >99% test set accuracy",
-      "Interactive drawing canvas for live digit classification",
-      "Activation map visualization for model interpretability"
-    ]
-  },
-  {
-    id: "image-processor",
-    title: "Advanced Image Processing & Spatial Filtering Engine",
-    category: "ml-cv",
-    categoryLabel: "Machine Learning & CV",
-    description: "Custom digital signal processing application implementing spatial convolution kernels, frequency domain transforms, edge detectors, and image restoration algorithms.",
-    tags: ["Digital Signal Processing", "OpenCV", "Spatial Filters", "Python"],
-    github: "https://github.com/tasneemibrahim-ai/Image-Processor",
-    demo: null,
-    featured: false,
-    highlights: [
-      "Sobel, Prewitt, Canny edge detection operators",
-      "Fourier Transform (FFT) high-pass and low-pass filtering",
-      "Morphological transformations and histogram equalization"
     ]
   },
   {
@@ -230,69 +244,35 @@ const projectsData = [
     ]
   },
   {
-    id: "market-basket-analysis",
-    title: "Retail Market Basket Analysis & Association Rules",
+    id: "image-processor",
+    title: "Advanced Image Processing & Spatial Filtering Engine",
     category: "ml-cv",
     categoryLabel: "Machine Learning & CV",
-    description: "Unsupervised data mining system discovering transactional purchase associations using Apriori and FP-Growth algorithms to maximize cross-selling revenue.",
-    tags: ["Association Mining", "Apriori", "FP-Growth", "Pandas", "Retail Analytics"],
-    github: "https://github.com/tasneemibrahim-ai/Market-Basket-Analysis",
+    description: "Custom digital signal processing application implementing spatial convolution kernels, frequency domain transforms, edge detectors, and image restoration algorithms.",
+    tags: ["Digital Signal Processing", "OpenCV", "Spatial Filters", "Python"],
+    github: "https://github.com/tasneemibrahim-ai/Image-Processor",
     demo: null,
     featured: false,
     highlights: [
-      "Support, Confidence, and Lift metric tuning for rule pruning",
-      "Interactive heatmaps showing product co-occurrence affinities",
-      "Category bundle recommendation generation"
+      "Sobel, Prewitt, Canny edge detection operators",
+      "Fourier Transform (FFT) high-pass and low-pass filtering",
+      "Morphological transformations and histogram equalization"
     ]
   },
   {
-    id: "ecommerce-recommender",
-    title: "Multi-Approach E-Commerce Recommender System",
+    id: "digit-recognizer",
+    title: "Deep Convolutional Digit Recognizer (MNIST)",
     category: "ml-cv",
     categoryLabel: "Machine Learning & CV",
-    description: "Hybrid recommendation platform combining collaborative filtering (matrix factorization / SVD), content-based item embeddings, and popularity fallback for cold-start mitigation.",
-    tags: ["Recommender Systems", "Collaborative Filtering", "SVD", "Cosine Similarity"],
-    github: "https://github.com/tasneemibrahim-ai/Multi-Approach-Intelligent-Ecommerce-Recommender-System",
-    demo: null,
-    featured: true,
-    highlights: [
-      "Hybrid ensemble balancing user personalization and catalog diversity",
-      "Matrix factorization resolving matrix sparsity challenges",
-      "Real-time top-N recommendation generation"
-    ]
-  },
-  {
-    id: "students-perceptions-ai",
-    title: "Empirical Analysis of Student Perceptions of AI in Education",
-    category: "ml-cv",
-    categoryLabel: "Machine Learning & CV",
-    description: "Quantitative empirical study evaluating university student adoption, ethical attitudes, and academic impact of generative AI through inferential statistics and clustering.",
-    tags: ["Statistical Modeling", "Hypothesis Testing", "Survey Analytics", "K-Means"],
-    github: "https://github.com/tasneemibrahim-ai/Students-Perceptions-of-AI-in-Education",
+    description: "High-accuracy handwritten digit recognition engine trained on MNIST with data augmentation, batch normalization, and dropout regularization.",
+    tags: ["PyTorch / TensorFlow", "CNN", "Computer Vision", "Deep Learning"],
+    github: "https://github.com/tasneemibrahim-ai/Digit-Recognizer",
     demo: null,
     featured: false,
     highlights: [
-      "Chi-square, ANOVA, and Mann-Whitney U test validations",
-      "Latent persona segmentation using K-Means clustering",
-      "Publication-grade demographic visualizations"
-    ]
-  },
-
-  // --- Data Engineering & Systems ---
-  {
-    id: "etl-data-warehouse",
-    title: "Enterprise ETL Pipeline & Data Warehouse",
-    category: "data-eng",
-    categoryLabel: "Data Engineering & DB",
-    description: "End-to-end modern data warehouse architecture modeled with dimensional Kimball methodology (Fact & Dimension tables), automated staging, cleaning, and SCD tracking.",
-    tags: ["Data Warehousing", "ETL Pipelines", "Kimball Modeling", "SQL", "Python"],
-    github: "https://github.com/tasneemibrahim-ai/ETL_Data_Warehouse",
-    demo: null,
-    featured: true,
-    highlights: [
-      "Star schema design with surrogate key management",
-      "Automated extraction, schema sanitization, and bulk loading",
-      "Analytical aggregations enabling sub-second executive reporting"
+      "Custom CNN architecture achieving >99% test set accuracy",
+      "Interactive drawing canvas for live digit classification",
+      "Activation map visualization for model interpretability"
     ]
   },
   {
@@ -312,38 +292,6 @@ const projectsData = [
     ]
   },
   {
-    id: "cairo-transport-optimization",
-    title: "Cairo Smart City Transport Network Optimization",
-    category: "data-eng",
-    categoryLabel: "Data Engineering & DB",
-    description: "Geospatial graph algorithm platform modeling Cairo's public transportation network to identify transit bottlenecks, optimize route scheduling, and compute shortest multi-modal paths.",
-    tags: ["Graph Theory", "Dijkstra / A*", "Geospatial", "NetworkX", "Smart City"],
-    github: "https://github.com/tasneemibrahim-ai/Cairo-Transport-Optimization",
-    demo: null,
-    featured: true,
-    highlights: [
-      "Multi-modal transit graph with weighted delay heuristics",
-      "Dynamic path calculation with congestion avoidance",
-      "Geospatial visualization of hub centrality and coverage"
-    ]
-  },
-  {
-    id: "graph-properties-analyzer",
-    title: "Graph Theory & Network Properties Analyzer",
-    category: "data-eng",
-    categoryLabel: "Data Engineering & DB",
-    description: "Computational discrete mathematics engine analyzing structural network properties: Eulerian/Hamiltonian circuits, chromatic numbers, articulation points, and centrality metrics.",
-    tags: ["Graph Algorithms", "Network Analysis", "Python", "Discrete Math"],
-    github: "https://github.com/tasneemibrahim-ai/graph-properties-analyzer",
-    demo: null,
-    featured: false,
-    highlights: [
-      "Tarjan's strongly connected components and biconnectivity",
-      "Network diameter, clustering coefficients, and spectral analysis",
-      "Graph isomorphism detection algorithms"
-    ]
-  },
-  {
     id: "amazon-services",
     title: "Amazon Cloud Services Integration Architecture",
     category: "data-eng",
@@ -359,8 +307,6 @@ const projectsData = [
       "Secure credential isolation and IAM policy configuration"
     ]
   },
-
-  // --- Software Engineering & Systems ---
   {
     id: "chatting-room-fx",
     title: "JavaFX Multi-Threaded Real-Time Chat Platform",
@@ -394,19 +340,35 @@ const projectsData = [
     ]
   },
   {
-    id: "oop-library-management",
-    title: "OOP Enterprise Library Management System",
+    id: "rsa-encryption-tool",
+    title: "RSA Cryptography & Digital Signature Suite",
     category: "software",
     categoryLabel: "Software Systems",
-    description: "Desktop information system built with strict Object-Oriented Design principles (Encapsulation, Polymorphism, Factory & Singleton patterns) for automated asset tracking.",
-    tags: ["Java", "OOP Design Patterns", "Desktop Software", "Software Architecture"],
-    github: "https://github.com/tasneemibrahim-ai/OOP-Library-Management-System",
+    description: "Pure mathematical implementation of the RSA public-key cryptographic algorithm, featuring Miller-Rabin primality testing, Extended Euclidean Algorithm, and OAEP padding.",
+    tags: ["Cryptography", "Information Security", "RSA", "Number Theory", "Python"],
+    github: "https://github.com/tasneemibrahim-ai/RSA-Encryption-Tool",
     demo: null,
     featured: false,
     highlights: [
-      "Clean separation of concerns with Model-View-Controller (MVC)",
-      "Role-based access control for patrons and librarians",
-      "Automated fine calculation and overdue reservation queues"
+      "Large prime generation via Miller-Rabin probabilistic tests",
+      "Modular exponentiation and multiplicative inverse calculation",
+      "Digital signature generation and cryptographic verification"
+    ]
+  },
+  {
+    id: "graph-properties-analyzer",
+    title: "Graph Theory & Network Properties Analyzer",
+    category: "data-eng",
+    categoryLabel: "Data Engineering & DB",
+    description: "Computational discrete mathematics engine analyzing structural network properties: Eulerian/Hamiltonian circuits, chromatic numbers, articulation points, and centrality metrics.",
+    tags: ["Graph Algorithms", "Network Analysis", "Python", "Discrete Math"],
+    github: "https://github.com/tasneemibrahim-ai/graph-properties-analyzer",
+    demo: null,
+    featured: false,
+    highlights: [
+      "Tarjan's strongly connected components and biconnectivity",
+      "Network diameter, clustering coefficients, and spectral analysis",
+      "Graph isomorphism detection algorithms"
     ]
   },
   {
@@ -426,6 +388,38 @@ const projectsData = [
     ]
   },
   {
+    id: "market-basket-analysis",
+    title: "Retail Market Basket Analysis & Association Rules",
+    category: "ml-cv",
+    categoryLabel: "Machine Learning & CV",
+    description: "Unsupervised data mining system discovering transactional purchase associations using Apriori and FP-Growth algorithms to maximize cross-selling revenue.",
+    tags: ["Association Mining", "Apriori", "FP-Growth", "Pandas", "Retail Analytics"],
+    github: "https://github.com/tasneemibrahim-ai/Market-Basket-Analysis",
+    demo: null,
+    featured: false,
+    highlights: [
+      "Support, Confidence, and Lift metric tuning for rule pruning",
+      "Interactive heatmaps showing product co-occurrence affinities",
+      "Category bundle recommendation generation"
+    ]
+  },
+  {
+    id: "students-perceptions-ai",
+    title: "Empirical Analysis of Student Perceptions of AI in Education",
+    category: "ml-cv",
+    categoryLabel: "Machine Learning & CV",
+    description: "Quantitative empirical study evaluating university student adoption, ethical attitudes, and academic impact of generative AI through inferential statistics and clustering.",
+    tags: ["Statistical Modeling", "Hypothesis Testing", "Survey Analytics", "K-Means"],
+    github: "https://github.com/tasneemibrahim-ai/Students-Perceptions-of-AI-in-Education",
+    demo: null,
+    featured: false,
+    highlights: [
+      "Chi-square, ANOVA, and Mann-Whitney U test validations",
+      "Latent persona segmentation using K-Means clustering",
+      "Publication-grade demographic visualizations"
+    ]
+  },
+  {
     id: "course-registration-system",
     title: "University Course Registration & Scheduling System",
     category: "software",
@@ -442,19 +436,19 @@ const projectsData = [
     ]
   },
   {
-    id: "car-race-game",
-    title: "2D Arcade Car Racing Game Engine",
+    id: "oop-library-management",
+    title: "OOP Enterprise Library Management System",
     category: "software",
     categoryLabel: "Software Systems",
-    description: "Interactive arcade racing game featuring custom 2D collision physics, dynamic obstacle spawning, parallax scrolling backgrounds, and real-time score tracking.",
-    tags: ["Game Development", "2D Physics", "Java / Python", "GUI Programming"],
-    github: "https://github.com/tasneemibrahim-ai/Car-Race-Game",
+    description: "Desktop information system built with strict Object-Oriented Design principles (Encapsulation, Polymorphism, Factory & Singleton patterns) for automated asset tracking.",
+    tags: ["Java", "OOP Design Patterns", "Desktop Software", "Software Architecture"],
+    github: "https://github.com/tasneemibrahim-ai/OOP-Library-Management-System",
     demo: null,
     featured: false,
     highlights: [
-      "Axis-Aligned Bounding Box (AABB) collision detection",
-      "Frame-rate independent animation loop (60 FPS)",
-      "Progressive difficulty scaling and high-score persistence"
+      "Clean separation of concerns with Model-View-Controller (MVC)",
+      "Role-based access control for patrons and librarians",
+      "Automated fine calculation and overdue reservation queues"
     ]
   },
   {
@@ -474,22 +468,6 @@ const projectsData = [
     ]
   },
   {
-    id: "rsa-encryption-tool",
-    title: "RSA Cryptography & Digital Signature Suite",
-    category: "software",
-    categoryLabel: "Software Systems",
-    description: "Pure mathematical implementation of the RSA public-key cryptographic algorithm, featuring Miller-Rabin primality testing, Extended Euclidean Algorithm, and OAEP padding.",
-    tags: ["Cryptography", "Information Security", "RSA", "Number Theory", "Python"],
-    github: "https://github.com/tasneemibrahim-ai/RSA-Encryption-Tool",
-    demo: null,
-    featured: false,
-    highlights: [
-      "Large prime generation via Miller-Rabin probabilistic tests",
-      "Modular exponentiation and multiplicative inverse calculation",
-      "Digital signature generation and cryptographic verification"
-    ]
-  },
-  {
     id: "smart-home-packet-tracer",
     title: "Smart Home IoT Network Topology Simulation",
     category: "software",
@@ -503,6 +481,22 @@ const projectsData = [
       "VLAN segregation for guest, IoT, and administrative subnets",
       "Automated sensor thresholds triggering environmental actuators",
       "Secure remote access via VPN and firewall ACL rules"
+    ]
+  },
+  {
+    id: "car-race-game",
+    title: "2D Arcade Car Racing Game Engine",
+    category: "software",
+    categoryLabel: "Software Systems",
+    description: "Interactive arcade racing game featuring custom 2D collision physics, dynamic obstacle spawning, parallax scrolling backgrounds, and real-time score tracking.",
+    tags: ["Game Development", "2D Physics", "Java / Python", "GUI Programming"],
+    github: "https://github.com/tasneemibrahim-ai/Car-Race-Game",
+    demo: null,
+    featured: false,
+    highlights: [
+      "Axis-Aligned Bounding Box (AABB) collision detection",
+      "Frame-rate independent animation loop (60 FPS)",
+      "Progressive difficulty scaling and high-score persistence"
     ]
   }
 ];
