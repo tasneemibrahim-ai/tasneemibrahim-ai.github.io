@@ -20,22 +20,6 @@ const projectsData = [
 
   // --- Generative AI & Autonomous Agents ---
   {
-    id: "autonomous-research-rag",
-    title: "Autonomous Research & Multi-Agent RAG System",
-    category: "genai",
-    categoryLabel: "Generative AI & Agents",
-    description: "Multi-agent autonomous research system featuring web search integration, iterative query planning, source citation, and vector-backed RAG synthesis powered by LangChain and Groq LLMs.",
-    tags: ["LangChain", "Groq LLaMA 3", "Multi-Agent", "RAG", "ChromaDB", "Python"],
-    github: "https://github.com/tasneemibrahim-ai/Autonomous-Research-and-RAG-System",
-    demo: null,
-    featured: true,
-    highlights: [
-      "Autonomous iterative search and query decomposition",
-      "Vector embeddings with ChromaDB and semantic similarity reranking",
-      "Fact-checked citations and synthesis via Groq LLaMA-3"
-    ]
-  },
-  {
     id: "llama-react-search-agent",
     title: "Llama 3 ReAct Search & Reasoning Agent",
     category: "genai",
@@ -81,6 +65,22 @@ const projectsData = [
       "Live API ingestion of international breaking news",
       "Dense vector storage in Chroma with chunk overlap optimization",
       "Attributed analytical summaries reducing hallucinations"
+    ]
+  },
+  {
+    id: "autonomous-research-rag",
+    title: "Autonomous Research & Multi-Agent RAG System",
+    category: "genai",
+    categoryLabel: "Generative AI & Agents",
+    description: "Multi-agent autonomous research system featuring web search integration, iterative query planning, source citation, and vector-backed RAG synthesis powered by LangChain and Groq LLMs.",
+    tags: ["LangChain", "Groq LLaMA 3", "Multi-Agent", "RAG", "ChromaDB", "Python"],
+    github: "https://github.com/tasneemibrahim-ai/Autonomous-Research-and-RAG-System",
+    demo: null,
+    featured: true,
+    highlights: [
+      "Autonomous iterative search and query decomposition",
+      "Vector embeddings with ChromaDB and semantic similarity reranking",
+      "Fact-checked citations and synthesis via Groq LLaMA-3"
     ]
   },
   {
