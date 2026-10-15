@@ -197,6 +197,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initial Execution
   updateCategoryCounts();
-  renderFeatured();
   renderAllProjects();
+  attachModalEvents();
 });

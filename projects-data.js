@@ -1,4 +1,23 @@
 const projectsData = [
+  // ★ GRADUATION PROJECT — Alamein International University (A+ — Both Semesters) ★
+  {
+    id: "secure-sight",
+    title: "SecureSight: AI Video Surveillance & Anomaly Detection",
+    category: "ml-cv",
+    categoryLabel: "Machine Learning & CV",
+    description: "Graduation project awarded A+ across both academic semesters at Alamein International University. An intelligent security surveillance system that detects perimeter breaches, unauthorized object presence, and behavioral anomalies in live camera feeds using deep computer vision techniques.",
+    tags: ["Computer Vision", "Anomaly Detection", "Object Tracking", "OpenCV", "Deep Learning", "Graduation Project"],
+    github: "https://github.com/tasneemibrahim-ai/Secure-Sight",
+    demo: null,
+    featured: false,
+    highlights: [
+      "Awarded A+ grade for both semesters as AIU graduation project",
+      "Temporal motion vector analysis for real-time anomaly scoring",
+      "Automated alerting system with bounding-box event logging",
+      "False-positive suppression in dynamic and low-light conditions"
+    ]
+  },
+
   // --- Generative AI & Autonomous Agents ---
   {
     id: "autonomous-research-rag",
@@ -176,22 +195,6 @@ const projectsData = [
       "Custom CNN architecture achieving >99% test set accuracy",
       "Interactive drawing canvas for live digit classification",
       "Activation map visualization for model interpretability"
-    ]
-  },
-  {
-    id: "secure-sight",
-    title: "SecureSight: AI Video Surveillance & Anomaly Detection",
-    category: "ml-cv",
-    categoryLabel: "Machine Learning & CV",
-    description: "Intelligent security surveillance application detecting perimeter breaches, unauthorized object presence, and behavioral anomalies in live camera feeds.",
-    tags: ["Computer Vision", "Anomaly Detection", "Object Tracking", "OpenCV"],
-    github: "https://github.com/tasneemibrahim-ai/Secure-Sight",
-    demo: null,
-    featured: false,
-    highlights: [
-      "Temporal motion vector analysis for anomaly scoring",
-      "Automated alerting and bounding-box event logging",
-      "False-positive suppression in dynamic lighting"
     ]
   },
   {
